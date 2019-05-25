@@ -1,0 +1,30 @@
+.App {
+  background-color: #eee;
+
+  h1 {
+    text-align: center;
+  }
+
+  .linkButtons {
+    display: flex;
+    justify-content: center;
+    .ecoButton {
+      margin-right: 10px;
+    }
+    a {
+      color: unset;
+      text-decoration: none;
+      background-color: unset;
+    }
+  }
+
+  .loadButton {
+    margin: 25px auto;
+    width: fit-content;
+
+    button {
+      background: #4ae0c0;
+      border-color: unset;
+    }
+  }
+}

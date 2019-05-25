@@ -1,0 +1,27 @@
+ul {
+  list-style-type: none
+}
+
+.listTodos {
+  overflow-y: scroll;
+  flex: 1;
+}
+
+.todosItem {
+  width: 400px;
+  padding: 15px;
+  margin: 10px auto;
+}
+
+.navigationButtons {
+  width: 300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.navigationSelect {
+  display: flex;
+  justify-content: center;
+}
